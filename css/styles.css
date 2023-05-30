@@ -1,0 +1,551 @@
+/*
+  grey: #282c34;
+  light: #f8f8f8;
+  blue: #007bff;
+*/
+body {
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+p {
+  /* font-family: 'Roboto Condensed', sans-serif !important; */
+  font-size: 1.2rem;
+}
+
+h1 {
+  /* font-family: 'Roboto Condensed', sans-serif !important; */
+  font-weight: 700 !important;
+}
+
+hr {
+  border-top: 3px solid !important;
+  opacity: 1 !important;
+}
+/********************************Navbar*****************************/
+.NavBar {
+  padding: 20px 90px;
+  background-color:  #282c34;
+  font-family: 'aeroregular';
+}
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover{
+  color: #e8e8e8;
+}
+.logo-img {
+  height: 80px;
+}
+.logo-txt {
+  color: white;
+  font-size: 3rem;
+  position: relative;
+  top: 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem !important;
+}
+
+.navbar-toggler {
+  background-color: #f8f8f8 !important;
+  color: #007bff !important;
+}
+
+.dropdown-menu {
+  background-color: #282c34 !important;
+}
+
+.dropdown-menu a:hover {
+  color: #000;
+}
+/******************************Carousel****************************/
+.carousel-item {
+  /* height: 500px; */
+  background: #282c34;
+  padding: 50px;
+}
+.car-txt {
+  padding: 1.25rem 3rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 20%;
+}
+.car-txt .btn {
+  width: 150px;
+  margin: 10px;
+}
+.carousel-img {
+  text-align: center;
+}
+.car-img {
+  border-radius: 10px;
+  width: 400px;
+}
+/***********************************Why Us**************************/
+.why-us {
+  padding: 100px 100px 0;
+  background-color: #f8f8f8;
+}
+.heading {
+  text-align: center;
+  padding-bottom: 30px;
+}
+/****************************Our services***************************/
+.services {
+  padding: 100px 100px 0;
+  background-color: #f8f8f8;
+}
+
+.model-img {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.issues {
+  border:  solid;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.issues h2 {
+  font-size: 2.58rem !important;
+}
+
+.issues .btn {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.call-now {
+  width: 100px;
+}
+
+.ipad-row {
+  display: none !important;
+}
+/****************************Our Process***************************/
+.process {
+  padding: 100px;
+  background-color: #f8f8f8;
+}
+
+.main-timeline {
+    position: relative
+}
+
+.main-timeline:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: #c6c6c6;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.main-timeline .timeline {
+    margin-bottom: 40px;
+    position: relative
+}
+
+.main-timeline .timeline:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.main-timeline .icon {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.main-timeline .icon:before,
+.main-timeline .icon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .icon:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -3px
+}
+
+.main-timeline .icon:after {
+    border: 2px solid #c6c6c6;
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:before {
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:after {
+    left: -3px
+}
+
+.main-timeline .date-content {
+    width: 50%;
+    float: left;
+    margin-top: 22px;
+    position: relative
+}
+
+.main-timeline .date-content:before {
+    content: "";
+    width: 36.5%;
+    height: 2px;
+    background: #c6c6c6;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0
+}
+
+.main-timeline .date-outer {
+    width: 125px;
+    height: 125px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    z-index: 1
+}
+
+.main-timeline .date-outer:before,
+.main-timeline .date-outer:after {
+    content: "";
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .date-outer:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -6px
+}
+
+.main-timeline .date-outer:after {
+    border: 2px solid #c6c6c6;
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:before {
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:after {
+    left: -6px
+}
+
+.main-timeline .date {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 27%;
+    left: 0
+}
+
+.main-timeline .month {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.main-timeline .year {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #232323;
+    line-height: 36px
+}
+
+.main-timeline .timeline-content {
+    width: 50%;
+    padding: 20px 0 20px 50px;
+    float: right
+}
+
+.main-timeline .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 15px 0
+}
+
+.main-timeline .description {
+    margin-bottom: 0
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content {
+    float: right
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content:before {
+    left: 10px
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content {
+    padding: 20px 50px 20px 0;
+    text-align: right
+}
+
+@media only screen and (max-width: 991px) {
+    .main-timeline .date-content {
+        margin-top: 35px
+    }
+    .main-timeline .date-content:before {
+        width: 22.5%
+    }
+    .main-timeline .timeline-content {
+        padding: 10px 0 10px 30px
+    }
+    .main-timeline .title {
+        font-size: 17px
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 10px 30px 10px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-timeline:before {
+        margin: 0;
+        left: 7px
+    }
+    .main-timeline .timeline {
+        margin-bottom: 20px
+    }
+    .main-timeline .timeline:last-child {
+        margin-bottom: 0
+    }
+    .main-timeline .icon {
+        margin: auto 0
+    }
+    .main-timeline .date-content {
+        width: 95%;
+        float: right;
+        margin-top: 0
+    }
+    .main-timeline .date-content:before {
+        display: none
+    }
+    .main-timeline .date-outer {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date-outer:before,
+    .main-timeline .date-outer:after {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date {
+        top: 30%
+    }
+    .main-timeline .year {
+        font-size: 24px
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        width: 95%;
+        text-align: center;
+        padding: 10px 0
+    }
+    .main-timeline .title {
+        margin-bottom: 10px
+    }
+}
+
+/***************************Contact***************************/
+#contact {
+  background-color: #282c34;
+  padding: 50px;
+}
+
+.col-lg-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .box {
+  background-color: #f8f8f8;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 100%;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.map{
+  height: 200px;
+  width: 100%; /*360px; */
+  filter: invert(92%) grayscale(0.5);
+  border-radius: 10px;
+}
+
+.contact-btn {
+  margin: 20px;
+}
+
+.contact-btn a {
+  text-decoration: none;
+}
+
+.sM-links {
+  padding: 20px;
+}
+/***************************footer***************************/
+footer {
+  text-align: center;
+  background-color:#282c34;
+  color: #f8f8f8;
+  padding-bottom: 10px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/********************************************************About Page*******************************************/
+.about {
+  padding: 100px;
+}
+/*******************************************************repair Page*****************************************/
+.repair {
+  padding: 100px;
+}
+.issues-img {
+  border-radius: 10px;
+  width: 500px;
+}
+/*******************************************************phone-repair Page*****************************************/
+.call-to-action {
+  padding: 100px 100px 0;
+}
+
+.call-to-action .btn{
+  margin: 20px;
+}
+.phone-repair {
+  padding: 100px;
+}
+
+.phone-repair li {
+  font-size: 1.5rem;
+}
+/*******************************************************************/
+.center {
+  text-align: center;
+}
+
+.right {
+  margin-left: calc(50% + 12px);
+}
+.left {
+  margin-left: -12px;
+}
+.b-right {
+  border-right: solid;
+}
+
+
+@media screen and (max-width: 480px){
+  .NavBar {
+    padding: 20px 20px;
+  }
+
+  .logo-txt {
+    font-size: 1.5rem;
+  }
+
+  .car-img {
+    width: 250px;
+  }
+
+  .why-us, .services{
+    padding: 50px 50px 0;
+  }
+
+  .process {
+    padding: 50px;
+  }
+
+  #contact .box {
+    margin: 0 0 20px;
+  }
+
+  /************about page*************/
+  .about {
+    padding: 50px;
+  }
+  /************repair page***********/
+  .repair {
+    padding: 50px;
+  }
+  .phone-repair {
+    padding: 50px;
+  }
+  .issues-img {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 698px) and (min-width: 481px){
+  .NavBar {
+    padding: 20px 50px;
+  }
+  .logo-txt {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1229px) and (min-width: 992px) {
+  .issues h2 {
+    font-size: 2.2rem !important;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .ipad-col {
+    display: none;
+  }
+
+  .ipad-row {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 481px) {
+
+  #contact .box {
+    margin: 0 0 35px;
+  }
+}
